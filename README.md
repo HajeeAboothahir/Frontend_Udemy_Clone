@@ -24,8 +24,7 @@ As part of my full-stack development bootcamp at **Error Makes Clever**, I wante
 
 ## 🔗 Live Link
 
-🌐 [Live Demo](https://yourusername.github.io/udemy-clone)  
-📁 [GitHub Repo](https://github.com/yourusername/udemy-clone)
+🌐 [Live Demo]https://hajeeaboothahir.github.io/Frontend_Udemy_Clone/
 
 
 📍 [LinkedIn](https://www.linkedin.com/in/hajee-syed-aboothahir/)  
