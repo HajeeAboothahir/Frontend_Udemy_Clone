@@ -18,6 +18,10 @@ body{
     border-bottom: solid black 1px;
     gap: 10px;
     align-items: center;
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .navbar__s1__title{
@@ -37,6 +41,7 @@ body{
     border: none;
     width: 100%;
     font-size: 16px;
+    background: transparent;
 }
 .navbar__s2 input:focus{
     outline: none;
@@ -47,6 +52,25 @@ body{
     align-items: center;
 }
 
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+.mylearning__popup{
+    background-color: white;
+    border: solid black 2px;
+    width: 75px;
+    position: absolute;
+    top: 125%;
+    padding: 20px;
+    right: 0;
+    display: none;
+}
+.mylearning:hover .mylearning__popup{
+    display: block;
+
+
+}
 .categories{
     display: flex;
     padding: 10px;
@@ -54,17 +78,32 @@ body{
     border-bottom: solid black 1px;
 }
 .categories p{
-    background-color: #9F49D2;
-    border-radius: 30px;
+    background-color: purple;
+    border-radius: 40px;
     color: aqua;
-    padding: 5px;
+    padding: 10px;
 }
 .sale-image img{
     width: 100%;
+    position: relative;
+}
+.saleimage__offer{
+    background-color: white;
+    padding: 2%;
+    position: absolute;
+    width: 35%;
+    border:solid black 2px;
+    bottom: 35%;
+    left: 5%;
+    
 }
 
 .recommended{
     padding: 10px;
+}
+
+.recommended-Title{
+    padding: 20px;
 }
 
 .recommended-container{
@@ -99,11 +138,17 @@ body{
     flex-grow: 1;
     flex-basis: 25%;
 }
+
+.Popular-Title{
+
+margin-top: 20px;
+
+}
 .popular__container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .footer{
